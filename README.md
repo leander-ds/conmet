@@ -1,3 +1,4 @@
+
 **ConMET: Short Description**
 
 When you conduct survey research, reviewers often ask you to perform confirmatory factor analyses (CFAs) to check whether the measured constructs are statistically different from each other or whether there is a common method bias. Conducting and evaluating CFAs, however, is a tedious task. Even after becoming familiar with the technique, you still spend a lot of time repeatedly creating, comparing, and reporting on different CFA models.
@@ -24,8 +25,11 @@ Other packages that the app uses are:
 
 **How to access the application:** 
  - You can open this link:  https://leanderdeschutter.shinyapps.io/conmet/. This is an online version of the application and works slower than when your run the app locally on your desktop. 
- - You can also run the following line of code: 
-	  `install.packages("shiny")`
-	  `library(shiny)`
-	  `runGithub("leander-ds", "conmet")`
-	  This will install the required packages for the application and then open the app in R. 
+ - You can also run the following line of code in your R console:
+	```{r}
+	install.packages("shiny")
+	library(shiny)
+	runGithub("leander-ds", "conmet")
+   	 ```
+
+	This will install the required packages for the application and then open the app in R. 
