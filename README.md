@@ -1,3 +1,7 @@
+**About me**
+
+I am Leander De Schutter, a PHD Candidate at the Rotterdam School of Management, Erasmus University. In my research I examine how people maintain cooperative relationships at the workplace. I am also interested in how we can make relatively advanced methodological techniques accessible to students and researchers who are unfamiliar with R. The latter is exactly the purpose of the shiny application I wrote: ConMET.  
+
 
 **ConMET: Short Description**
 
@@ -12,11 +16,17 @@ I wrote ConMET, a shiny application, that makes it easier to analyze typical CFA
 	# install the R shiny package if you havent installed it before. 
 	# install.packages("shiny")
 	library(shiny)
-	runGitHub("conmet", "leander-ds")
+	runGitHub("conmet", "leander-ds", subdir = "myapp")
    	 ```
 
 	This will install the required packages for the application and then open the app in R. 
 
+**Tutorial**
+
+In the 'Tutorial' folder you can find information about how to use the application. You can also test ConMET by using the example datasets. 
+
+
+**More information**
 
 ConMET relies heavily on the lavaan package (Rosseel, 2012) and uses functions from the semTools package (Jorgensen et al., 2020) to obtain reliabilities. Please make sure to cite these packages when using the output of the application.
 
