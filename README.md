@@ -11,7 +11,7 @@ I wrote ConMET, a shiny application, that makes it easier to analyze typical CFA
 	```{r}
 	install.packages("shiny")
 	library(shiny)
-	runGithub("leander-ds", "conmet")
+	runGitHub("leander-ds", "conmet")
    	 ```
 
 	This will install the required packages for the application and then open the app in R. 
