@@ -9,7 +9,8 @@ I wrote ConMET, a shiny application, that makes it easier to analyze typical CFA
  - You can open this link:  https://leanderdeschutter.shinyapps.io/conmet/. This is an online version of the application and works slower than when your run the app locally on your desktop. 
  - You can also run the following line of code in your R console:
 	```{r}
-	install.packages("shiny")
+	# install the R shiny package if you havent installed it before. 
+	# install.packages("shiny")
 	library(shiny)
 	runGitHub("leander-ds", "conmet")
    	 ```
