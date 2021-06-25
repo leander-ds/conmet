@@ -14,8 +14,8 @@ I wrote ConMET, a shiny application, that makes it easier to analyze typical CFA
 \
 \
 **How to access the application:** 
- - You can open this link: https://leanderdeschutter.shinyapps.io/conmet/. This is an online version of the application and works slower than when your run the app locally on your desktop. 
- - You can also run the following line of code in your R console. This will install the required packages for the application and then open the app in R. 
+ - You can open this link: https://leanderdeschutter.shinyapps.io/conmet/. This is an online version of the application and works slower than when your run the app locally on your desktop. The app is hosted on shinyapps.io, and data you upload is [removed](https://docs.rstudio.com/shinyapps.io/Storage.html) after you close your session. Best thing you can do is to load the app in your local R console.
+ - You can also run the following line of code in your R console. This will install the required packages for the application and then open the app in R. The function just retrieves the code in the 'myapp'-folder and then runs it on your computer.
 	```{r}
 	# install the R shiny package if you havent installed it before. 
 	# install.packages("shiny")
@@ -26,7 +26,7 @@ I wrote ConMET, a shiny application, that makes it easier to analyze typical CFA
 \
 **Tutorial**
 
-In the [Tutorial](Tutorial) folder you can find information about how to use the application. You can also test ConMET by using the [example datasets](Example%20Data). 
+In the [tutorial](Tutorial) folder you can find information about how to use the application. You can also test ConMET by using the [example datasets](Example%20Data). 
 
 \
 \
