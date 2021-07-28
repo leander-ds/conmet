@@ -8,15 +8,18 @@ Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://j
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
+```{r}
+# install the R shiny package if you havent installed it before. 
+# install.packages("shiny")
+library(shiny)
+runGitHub("conmet", "leander-ds", subdir = "myapp")
+```
+
+
+
 ```markdown
 Syntax highlighted code block
 
-	```{r}
-	# install the R shiny package if you havent installed it before. 
-	# install.packages("shiny")
-	library(shiny)
-	runGitHub("conmet", "leander-ds", subdir = "myapp")
-   	 ```
 
 # Header 1
 ## Header 2
