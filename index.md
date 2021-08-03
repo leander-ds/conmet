@@ -1,7 +1,7 @@
 <html>
   <head>
     <title>Your Page Title</title>
-<meta name="google-site-verification" content="rvUPFYzH66qBL1bdUgI_L2lmSEmaLXfWxYGbaIV4ysc"/>
+<meta name="google-site-verification" content="rvUPFYzH66qBL1bdUgI_L2lmSEmaLXfWxYGbaIV4ysc">
   </head>
 </html>
 
