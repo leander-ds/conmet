@@ -1,4 +1,6 @@
-<meta name="google-site-verification" content="rvUPFYzH66qBL1bdUgI_L2lmSEmaLXfWxYGbaIV4ysc" />
+<head>
+	<meta name="google-site-verification" content="rvUPFYzH66qBL1bdUgI_L2lmSEmaLXfWxYGbaIV4ysc" />
+</head>
 
 # ConMET: Facilitating Confirmatory Factor Analyses
 
