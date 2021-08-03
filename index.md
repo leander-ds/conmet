@@ -1,7 +1,9 @@
-<head>
-  <title>https://leander-ds.github.io/conmet/ homepage</title>
-	<meta name="google-site-verification" content="rvUPFYzH66qBL1bdUgI_L2lmSEmaLXfWxYGbaIV4ysc" />
-</head>
+<html>
+  <head>
+    <title>Your Page Title</title>
+<meta name="google-site-verification" content="rvUPFYzH66qBL1bdUgI_L2lmSEmaLXfWxYGbaIV4ysc"/>
+  </head>
+</html>
 
 # ConMET: Facilitating Confirmatory Factor Analyses
 
