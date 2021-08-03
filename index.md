@@ -1,9 +1,15 @@
-<html>
-  <head>
-    <title>Your Page Title</title>
-<meta name="google-site-verification" content="rvUPFYzH66qBL1bdUgI_L2lmSEmaLXfWxYGbaIV4ysc">
-  </head>
-</html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  {%- seo -%}
+  <link rel="stylesheet" href="{{ "/assets/css/style.css" | relative_url }}">
+  {%- feed_meta -%}
+  {%- if jekyll.environment == 'production' and site.google_analytics -%}
+    {%- include google-analytics.html -%}
+  {%- endif -%}
+<meta name="google-site-verification" content="rvUPFYzH66qBL1bdUgI_L2lmSEmaLXfWxYGbaIV4ysc"/>
+</head>
 
 # ConMET: Facilitating Confirmatory Factor Analyses
 
