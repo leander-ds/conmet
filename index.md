@@ -1,9 +1,3 @@
-title: "ConMET: Facilitating Confirmatory Factor Analyses"
-
-<head>
-<meta name="google-site-verification" content="rvUPFYzH66qBL1bdUgI_L2lmSEmaLXfWxYGbaIV4ysc"/>
-</head>
-
 # ConMET: Facilitating Confirmatory Factor Analyses
 
 When you conduct survey research, reviewers often ask you to perform confirmatory factor analyses (CFAs) to check whether the measured constructs are statistically different from each other or whether there is a common method bias. Conducting and evaluating CFAs, however, is a tedious task. Even after becoming familiar with the technique, you still spend a lot of time repeatedly creating, comparing, and reporting on different CFA models.
