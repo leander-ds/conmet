@@ -18,7 +18,7 @@ ConMET relies heavily on the lavaan package (Rosseel, 2012) and uses functions f
 
 
 ## How to access the application:
- - You can open this link: https://leanderdeschutter.shinyapps.io/conmet/. This is an online version of the application and works slower than when your run the app locally on your computer. The app is hosted on shinyapps.io, and the data you upload is stored in a temporary directory and [removed](https://docs.rstudio.com/shinyapps.io/Storage.html) once you close the session. I use the free version which only has limited uses every month, so there is a chance that the link will not work.
+ - You can open this link: [https://leanderdeschutter.shinyapps.io/conmet/](https://leanderdeschutter.shinyapps.io/conmet/). This is an online version of the application and works slower than when your run the app locally on your computer. The app is hosted on shinyapps.io, and the data you upload is stored in a temporary directory and [removed](https://docs.rstudio.com/shinyapps.io/Storage.html) once you close the session. I use the free version which only has limited uses every month, so there is a chance that the link will not work.
  - You can also run the app locally on your computer. You can do this by running the code below in your R console. This will install the required packages for the application and then open the app in R. The function just retrieves the code in the 'myapp'-folder from this GitHub page and then runs it on your computer.
 	
  ```{r}
