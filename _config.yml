@@ -1,0 +1,12 @@
+title: Title_Test
+description: [A short description of your site's purpose]
+remote_theme: pages-themes/cayman@v0.2.0
+markdown: kramdown
+kramdown:
+  math_engine: mathjax
+  input: GFM
+  syntax_highlighter: rouge
+  extensions: fenced_code_blocks
+  google-site-verification: google1c5a6bb111e26d1f.html
+plugins:
+- jekyll-remote-theme # add this line to the plugins list if you already have one
