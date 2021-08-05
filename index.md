@@ -14,7 +14,7 @@ ConMET relies heavily on the lavaan package (Rosseel, 2012) and uses functions f
 
 ## Tutorial
 
-In the [tutorial](https://github.com/leander-ds/conmet/tree/master/Tutorial) folder you can find information about how to use the application. You can also test ConMET by using the [example datasets](https://github.com/leander-ds/conmet/tree/master/Example%20Data). 
+[Here](https://github.com/leander-ds/conmet/tree/master/Tutorial/Tutorial.pdf) you can find a tutorial on how to use the application. You can also test ConMET by using the [example datasets](https://github.com/leander-ds/conmet/tree/master/Example%20Data). 
 
 
 ## How to access the application:
