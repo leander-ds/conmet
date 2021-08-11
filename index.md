@@ -30,5 +30,5 @@ ConMET relies heavily on the lavaan package (Rosseel, 2012) and uses functions f
 
 # About me
 
-I am [Leander De Schutter](https://www.linkedin.com/in/leander-de-schutter), a PhD Candidate at the Rotterdam School of Management, Erasmus University. In my research I examine how people maintain cooperative relationships at the workplace. I am also interested in how methodological techniques can be made more accessible. The latter is exactly the purpose of the shiny application I wrote: ConMET. 
+I am [Leander De Schutter](https://www.linkedin.com/in/leander-de-schutter), a PhD Candidate at the Rotterdam School of Management, Erasmus University. In my research I examine how people maintain cooperative relationships in the workplace. I am also interested in how methodological techniques can be made more accessible. The latter is exactly the purpose of the shiny application I wrote: ConMET. 
 Feel free to reach out to me at [deschutter@rsm.nl](mailto:deschutter@rsm.nl) if you encounter any bugs, have any comments, questions or change requests.
