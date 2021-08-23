@@ -105,7 +105,7 @@ ui <- dashboardPage(
               fluidPage(
                 fluidRow(
                          box(
-                           width = 12, title = "Getting Started and Automatic Factor Detection", status = "primary", solidHeader = TRUE,
+                           width = 12, title = "conmet: Recognizing proposed measurement model from list of items", status = "primary", solidHeader = TRUE,
                               collapsible = TRUE, collapsed = TRUE,
                            includeHTML("HowTo.html")
                          ) # end of box.
@@ -157,8 +157,8 @@ ui <- dashboardPage(
                 ),
                 fluidRow(
                   tabBox(
-                    side = "left", selected = "Automatically Search for Factors",
-                    tabPanel("Automatically Search for Factors", fluidPage(
+                    side = "left", selected = "Generate Measurement Model Based on Item Names",
+                    tabPanel("Generate Measurement Model Based on Item Names", fluidPage(
                       fluidRow(
                         column(4, uiOutput("VarsSelect")),
                         column(8, verbatimTextOutput("proposed_model_auto_extract"))
@@ -166,7 +166,7 @@ ui <- dashboardPage(
                       fluidRow(column(4,  uiOutput("Action_Items")))
                     )
                     ),
-                    tabPanel("Manually Select Factors",
+                    tabPanel("Manually Select Factors and Measurement Model",
                              fluidPage(
                                fluidRow(
                                  column(4,
@@ -892,7 +892,7 @@ server <-
     ### Action button - do this then use the items from the auto extract.
     output$Action_Items <- renderUI({
       req(input$file1)
-      actionButton("do_items", "Extract Factors")
+      actionButton("do_items", "Generate Measurement Model")
 
     })
 
@@ -1018,7 +1018,7 @@ server <-
 
     output$Action_Items_manual <- renderUI({
       req(input$file1)
-      actionButton("do_items_manual", "Extract Factors")
+      actionButton("do_items_manual", "Generate Measurement Model")
 
     })
 
@@ -1773,7 +1773,7 @@ server <-
       if(purrr::is_empty(x)) {
         return("")
       } else {
-      return(c("Reversed items need to be reverse scored prior to the analysis to get the correct Cronbach's Alpha and McDonald's Omega. Perhaps the following item(s) need to be reverse scored: ", x) )
+      return(c("Negatively framed items need to be reverse scored prior to the analysis to get the correct Cronbach's Alpha and McDonald's Omega. Perhaps the following item(s) need to be reverse scored: ", x) )
       }
     })
 
