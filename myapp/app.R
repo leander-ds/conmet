@@ -881,7 +881,7 @@ server <-
       column_names <- colnames(df)
       shinyWidgets::pickerInput(
         inputId = "Id094",
-        label = "Select all items for the measurement model",
+        label = "Select items for the measurement model",
         choices = column_names,
         options = list(
           `actions-box` = TRUE),
