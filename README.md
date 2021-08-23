@@ -14,7 +14,13 @@ In the [tutorial](Tutorial) folder you can find information about how to use the
 \
 **How to access the application:** 
  - You can open this link: https://leanderdeschutter.shinyapps.io/conmet/. This is an online version of the application and works slower than when your run the app locally on your computer. The app is hosted on shinyapps.io, and the data you upload is stored in a temporary directory and [removed](https://docs.rstudio.com/shinyapps.io/Storage.html) once you close the session. I use the free version which only has limited uses every month, so there is a chance that the link will not work.
- - You can also run the app locally on your computer. You can do this by running the code below in your R console. This will install the required packages for the application and then open the app in R. The function just retrieves the code in the 'myapp'-folder from this GitHub page and then runs it on your computer.
+ - You can also run the app locally on your computer. You can do this by running the code below in your R console. This will install the required packages for the application and then open the app in R. 
+	```{r}
+	# install.packages("conmet")
+	library(conmet)
+	run_conmet()
+   	 ```
+ - You can also run the latest version by running this code:
 	```{r}
 	# install the R shiny package if you havent installed it before. 
 	# install.packages("shiny")
