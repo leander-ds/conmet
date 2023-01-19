@@ -755,7 +755,7 @@ server <-
       if (is.null(x)){
         return(NULL)
       } else{
-        x$FIT
+        x$fit
       }
     }
 
